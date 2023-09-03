@@ -8,7 +8,6 @@ import Links from './Links.jsx'
 import Thanks from './Thanks.jsx'
 import Blog from './Blog.jsx'
 import Footer from './Footer.jsx'
-import Fade from 'react-reveal/Fade';
 
 function App() {
 
@@ -30,7 +29,6 @@ function App() {
         }
       </header>
       <main>
-      <Fade>
           {/*Current use: image carousel*/}
           <Hero />
           {/*Current use: overview information/pitch*/}
@@ -39,7 +37,6 @@ function App() {
           <Links/>
           <Thanks />
           <Blog />
-        </Fade>
       </main>
       <Footer/>
       {/*Current Use: Footer*/}

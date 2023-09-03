@@ -1,0 +1,11 @@
+.appContainer {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.stuckHeader {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Add your desired background color */
+  z-index: 100; 
+}
